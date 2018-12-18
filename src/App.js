@@ -33,7 +33,7 @@ class App extends Component {
         <div className="wrapper" id="quote-box">
         <TextBox quoteText={this.state.quoteText} quoteAuthor={this.state.quoteAuthor}/>
         <Button loadNewQuote={this.loadNewQuote}/>
-        <Share />
+        <Share quoteText={this.state.quoteText} quoteAuthor={this.state.quoteAuthor}/>
         </div>
       </div>
     );
