@@ -58,6 +58,10 @@ button {
 	content: "\"" ;
 }
 
+#twitter:hover, button:hover {
+	opacity: 0.8;
+}
+
 @media only screen and (max-width: 800px) {
 
    .card-header {
