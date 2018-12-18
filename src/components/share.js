@@ -3,9 +3,9 @@ import React from 'react';
 const share = () => {
 		return(
 			<div>
-			<div id="share" className="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/"
+			<div id="share" className="fb-share-button" data-href="https://csgabka.github.io/quote-machine/"
 			data-layout="button" data-size="small" data-mobile-iframe="true">
-			<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
+			<a target="_blank" href="https://csgabka.github.io/quote-machine/"
 			className="fb-xfbml-parse-ignore">Share</a></div>
 			</div>
 			);
