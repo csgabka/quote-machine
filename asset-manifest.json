@@ -1,14 +1,15 @@
 {
-  "main.css": "/quote-machine/static/css/main.c4f35627.chunk.css",
-  "main.js": "/quote-machine/static/js/main.fb854092.chunk.js",
-  "main.js.map": "/quote-machine/static/js/main.fb854092.chunk.js.map",
-  "static/js/1.324b6cf3.chunk.js": "/quote-machine/static/js/1.324b6cf3.chunk.js",
-  "static/js/1.324b6cf3.chunk.js.map": "/quote-machine/static/js/1.324b6cf3.chunk.js.map",
+  "main.css": "/quote-machine/static/css/main.99b05103.chunk.css",
+  "main.js": "/quote-machine/static/js/main.6d1195e9.chunk.js",
+  "main.js.map": "/quote-machine/static/js/main.6d1195e9.chunk.js.map",
+  "static/js/1.82dafdb5.chunk.js": "/quote-machine/static/js/1.82dafdb5.chunk.js",
+  "static/js/1.82dafdb5.chunk.js.map": "/quote-machine/static/js/1.82dafdb5.chunk.js.map",
   "runtime~main.js": "/quote-machine/static/js/runtime~main.22742a60.js",
   "runtime~main.js.map": "/quote-machine/static/js/runtime~main.22742a60.js.map",
+  "static/css/main.99b05103.chunk.css.map": "/quote-machine/static/css/main.99b05103.chunk.css.map",
+  "static/media/twitter.svg": "/quote-machine/static/media/twitter.da43cdfd.svg",
   "static/media/index.css": "/quote-machine/static/media/bg.abe5ed55.jpg",
-  "static/css/main.c4f35627.chunk.css.map": "/quote-machine/static/css/main.c4f35627.chunk.css.map",
   "index.html": "/quote-machine/index.html",
-  "precache-manifest.cf035bab659a39efb30abc34fcada837.js": "/quote-machine/precache-manifest.cf035bab659a39efb30abc34fcada837.js",
+  "precache-manifest.21ea2640d5505b807b727653f2026d76.js": "/quote-machine/precache-manifest.21ea2640d5505b807b727653f2026d76.js",
   "service-worker.js": "/quote-machine/service-worker.js"
 }
