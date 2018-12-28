@@ -3,6 +3,7 @@ import './App.css';
 import TextBox from './components/textBox';
 import Button from './components/button';
 import Share from './components/share';
+import "isomorphic-fetch";
 
 class App extends Component {
   constructor(props) {
@@ -19,9 +20,15 @@ class App extends Component {
 
   fetchData = () => {
     fetch('https://favqs.com/api/qotd')
-    .then(response => response.json())
+    .then(response => {
+      if (response.status >= 400) {
+        throw new Error("Bad response from server");
+      }
+      return response.json();
+    })
     .then(data => this.setState({ quoteText: data.quote.body, quoteAuthor: data.quote.author }));
   }
+
 
   loadNewQuote = () => {
     this.fetchData();
