@@ -18,9 +18,9 @@ class App extends Component {
   }
 
   fetchData = () => {
-    fetch('https://talaikis.com/api/quotes/random/')
+    fetch('https://favqs.com/api/qotd')
     .then(response => response.json())
-    .then(data => this.setState({ quoteText: data.quote, quoteAuthor: data.author }));
+    .then(data => this.setState({ quoteText: data.quote.body, quoteAuthor: data.quote.author }));
   }
 
   loadNewQuote = () => {
