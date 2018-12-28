@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/quote-machine/static/css/main.99b05103.chunk.css"
   },
   {
-    "revision": "0118c5c93efa4cc055267e95140d29cd",
+    "revision": "97408da5f020ce503eeec265c6d67785",
     "url": "/quote-machine/index.html"
   }
 ];
